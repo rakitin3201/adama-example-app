@@ -1,0 +1,14 @@
+{% extends "vercel_app/base.html" %}
+
+{% block title %} Index {% endblock title %}
+
+{% block content %}
+    <main>
+        <div class="container">
+            <h1> <center> Bienvenu sur mon site de shopping </center> </h1>
+            <h2> <center> Aujourd'hui nous sommes le {{ date }} </center> </h2>
+            <h2> <center> Aujourd'hui nous sommes le {{ date|date:"d F Y H:i:s" }} </center> </h2>
+            <h3> <center> Aujourd'hui nous sommes le {{ date|date:"d F Y" }} et il est actuellement {{ date|date:"H\hi" }} </center> </h3>
+        </div>
+    </main>
+{% endblock content %}
