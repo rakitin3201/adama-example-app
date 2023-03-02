@@ -22,6 +22,7 @@ from django.conf import settings
 urlpatterns = [
     path('', vercel_app_index, name="vercel_app_index"),
     path('example/', include("example.urls")),
+    path('shopping/', include("shopping.urls")),
     path('admin/', admin.site.urls),
 ]
 
