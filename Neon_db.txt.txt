@@ -1,4 +1,0 @@
-rkA5jFpRlag1
-
-postgres://rakitin3201:********@ep-sparkling-sky-179298.us-east-2.aws.neon.tech/neondb
-
